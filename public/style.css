@@ -1,0 +1,11 @@
+.headingStyle {
+ background-Color: purple;
+color: white;
+padding: 15px;
+text-align: center;
+}
+
+.largeText {
+    font-size: 3rem;
+
+}
