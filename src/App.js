@@ -13,6 +13,12 @@
 // export default App;
 
 import React from 'react'
+import './index.css';
+
+
+import { FaFacebook, FaYoutube  } from "react-icons/fa";
+
+
 import Card1 from './components/Card1'
 import Card2 from './components/Card2'
 
@@ -21,6 +27,23 @@ function App(){
         <div>
             <Card1 name="Card1" desc="this is card1" />
             <Card2 name="Card2" />
+
+        <br /> 
+        <span className="icon">
+
+        < FaFacebook/>
+
+        </span>
+
+
+         <span className="icon">
+
+        < FaYoutube/>
+
+        </span>
+
+
+
         </div>
 
     )
