@@ -56,6 +56,13 @@ export const ReactBootstrap = () => {
             <td>Name</td>
             <td>@twitter</td>
           </tr>
+          <tr>
+            <td>4</td>
+            <td>This is</td>
+            <td>Name</td>
+            <td>@twitter</td>
+          </tr>
+
         </tbody>
       </Table>
     </div>
