@@ -1,18 +1,12 @@
 import React from 'react';
-import { Child } from './components/STATE_LIFTING/Child';
+import Home   from './components/STATE_LIFTING/Home';
 
 
 export default function App() {
 
-  const data = "I am from Parent (app)"
-
-  const handleChildData= (childData) => {
-    console.log("App: " + childData);
-  }
-
   return (
     <div>
-      <Child data={data} onChildData={handleChildData}/>
+     <Home />
     </div>
   );
 }
