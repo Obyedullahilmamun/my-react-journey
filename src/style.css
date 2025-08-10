@@ -3,13 +3,7 @@ body {
     color: white;
 }
 
-button {
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    background-color: limegreen;
-    color: green;
-    margin-right: 10px;
-    font-size: 2rem;
-    width: 80px;
+.parent {
+    background-color: rgb(208, 230, 167);
+    color: rgb(75, 235, 30);
 }

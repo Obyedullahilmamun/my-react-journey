@@ -1,14 +1,11 @@
- import React from 'react'
- import HOOKS_USESTATE1 from './HOOKS_USESTATE/index1'  
- import HOOKS_USESTATE2 from './HOOKS_USESTATE/index2'
-  
- export default function App() {
-   return (
-     <div>
-      {/* <HOOKS_USESTATE1 /> */}
-      <HOOKS_USESTATE2 />
-      
-      </div>
-   )
- }
- 
+import React from 'react'
+import FORM from './components/FORM/form'
+
+
+export default function App() {
+  return (
+    <div>
+      <FORM />
+    </div>
+  )
+}
